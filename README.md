@@ -1,8 +1,8 @@
-# Wikipedia Researcher Agent 📚
-
+# Wikipedia Researcher Agent 
+ś
 A powerful AI-powered research assistant that combines Wikipedia's vast knowledge base with GPT-3.5's intelligence to provide comprehensive answers to your questions.
 
-## Features ✨
+## Features 
 
 - **Intelligent Search**: Uses Wikipedia API to find the most relevant articles
 - **AI-Powered Analysis**: Leverages GPT-3.5 to synthesize information from multiple sources
@@ -12,7 +12,7 @@ A powerful AI-powered research assistant that combines Wikipedia's vast knowledg
 - **Search History**: Keeps track of recent queries for easy reference
 - **Export Options**: Download research results in Markdown format
 
-## Architecture 🏗️
+## Architecture 
 
 ```
 [Streamlit UI] → [LangGraph Workflow] → [Wikipedia API] → [GPT-3.5] → [Formatted Results]
@@ -21,7 +21,7 @@ A powerful AI-powered research assistant that combines Wikipedia's vast knowledg
                       └─ GPT Analyzer Node
 ```
 
-## Installation 🚀
+## Installation 
 
 1. **Clone the repository**
    ```bash
@@ -49,7 +49,7 @@ A powerful AI-powered research assistant that combines Wikipedia's vast knowledg
    streamlit run app.py
    ```
 
-## Usage 💡
+## Usage 
 
 1. **Start the app**: Run `streamlit run app.py`
 2. **Enter your question**: Type any research question in the search box
@@ -64,7 +64,7 @@ A powerful AI-powered research assistant that combines Wikipedia's vast knowledg
 - "Who was Marie Curie and what were her major contributions?"
 - "What is the history of artificial intelligence?"
 
-## Configuration ⚙️
+## Configuration 
 
 ### Environment Variables
 
@@ -79,7 +79,7 @@ The app includes advanced settings to customize:
 - Number of Wikipedia articles to search (1-5)
 - Maximum content length per article (1000-5000 characters)
 
-## Project Structure 📁
+## Project Structure 
 
 ```
 wikipedia-researcher/
@@ -96,14 +96,14 @@ wikipedia-researcher/
 └── README.md            # This file
 ```
 
-## How It Works 🔧
+## How It Works 
 
 1. **Search Phase**: The Wikipedia Search Node finds relevant articles based on your query
 2. **Extraction Phase**: The Summary Node retrieves and processes article content
 3. **Analysis Phase**: The GPT Summarizer Node uses AI to generate comprehensive answers
 4. **Presentation Phase**: Results are formatted and displayed with source citations
 
-## Dependencies 📦
+## Dependencies 
 
 - **streamlit**: Web application framework
 - **langgraph**: Agent workflow orchestration
@@ -111,7 +111,7 @@ wikipedia-researcher/
 - **wikipedia**: Wikipedia API wrapper
 - **python-dotenv**: Environment variable management
 
-## Error Handling 🛡️
+## Error Handling 
 
 The application includes robust error handling for:
 - Wikipedia API failures and disambiguation
@@ -119,7 +119,7 @@ The application includes robust error handling for:
 - Empty search results with suggestions
 - Token limit management with content truncation
 
-## Contributing 🤝
+## Contributing 
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -127,18 +127,18 @@ The application includes robust error handling for:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License 📄
+## License 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments 🙏
+## Acknowledgments 
 
 - **Wikipedia**: For providing free access to human knowledge
 - **OpenAI**: For the GPT-3.5 language model
 - **LangGraph**: For the agent orchestration framework
 - **Streamlit**: For the excellent web app framework
 
-## Support 💬
+## Support 
 
 If you encounter any issues or have questions:
 1. Check the existing issues in the repository
@@ -147,4 +147,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Built with ❤️ using Streamlit, LangGraph, and OpenAI GPT-3.5**
+**Built with Love using Streamlit, LangGraph, and OpenAI GPT-3.5**
