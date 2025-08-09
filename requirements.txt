@@ -1,0 +1,5 @@
+streamlit==1.29.0
+langgraph==0.0.26
+openai==1.6.1
+wikipedia==1.4.0
+python-dotenv==1.0.0
