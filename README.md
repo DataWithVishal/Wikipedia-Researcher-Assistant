@@ -1,5 +1,5 @@
 # Wikipedia Researcher Agent 
-ś
+
 A powerful AI-powered research assistant that combines Wikipedia's vast knowledge base with GPT-3.5's intelligence to provide comprehensive answers to your questions.
 
 ## Features 
